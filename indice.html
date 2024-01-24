@@ -3,35 +3,73 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport"
-     content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pagina Producto</title>
+    <link
+    href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i"
+    rel="stylesheet">
+
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
 </head>
 
 <body>
     <header>
         <h1>Logo</h1>
     </header>
+    
 
 
     <div class="container-tittle">Zapatos
     </div>
 
     <main>
+        <div class="container-img">
+            <img src="https://images.unsplash.com/photo-1560769629-975ec94e6a86?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=764&q=80"
+                alt="">
+        </div>
+        <div class="container-info-product">
+            <div class="container-price">
+                <span>$95.00</span>
+                <i class="fa-regular fa-chevron-right"></i>
+            </div>
 
+            <div class="container-details-product"> <div class="form-group">
+                <label for="colour">Color</label>
+                <select name="colour" id="colour">
+                    <option disabled selected value="">
+                        Escoge una opcion
+                    </option>
+                    <option value="rojo">Rojo</option>
+                    <option value="azul">Azul</option>
+                    <option value="verde">Verde</option>
+                </select>
+
+            </div>
+            <div class="form-group">
+                <label for="talla">Talla</label>
+                <select name="talla" id="talla">
+                    <option disabled selected value="">
+                        Escoge una opcion
+                    </option>
+                    <option value="40">40</option>
+                    <option value="42">42</option>
+                    <option value="43">43</option>
+                </select>
+            </div>
+            <button><div class="btn-clean">limpiar</div></button>
+            </div>
+        </div>
     </main>
 
     <footer>
         <p> footer</p>
     </footer>
 
-    <script
-    src="https>//kit.fontawesome.com/81581fb869.js"
-    crossorigin="anonymous"
-    ></script>
-    <script
-    src="index.js"></script>
+    
+    <script src="index.js"></script>
 
 </body>
 
